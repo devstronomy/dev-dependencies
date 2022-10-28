@@ -8,6 +8,8 @@
     "prettier"
   ],
   "scripts": {
+    "publish:dry": "npm publish --access public --dry-run",
+    "publish:npm": "npm publish --access public",
     "prettier": "prettier-package-json -l ./package.json",
     "prettier:fix": "prettier-package-json --write ./package.json"
   },
