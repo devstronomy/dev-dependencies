@@ -1,13 +1,11 @@
 {
   "name": "@devstronomy/dev-dependencies",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Set of development dependencies used by Devstronomy Node packages",
   "license": "MIT",
   "author": "Martin Krauskopf <martin.krauskopf@gmail.com> (https://devstronomy.com/)",
   "files": [
-    "package.json",
-    "package-lock.json",
-    ".prettierrc.js"
+    "prettier"
   ],
   "scripts": {
     "prettier": "prettier-package-json -l ./package.json",
